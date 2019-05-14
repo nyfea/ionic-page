@@ -1,3 +1,21 @@
 page-login {
 
+h1{
+    text-align: center;
+    color: bisque;
+}
+
+h3{
+    text-align: right;
+}
+
+.loginPart{
+    float: left;
+    box-align: left;
+}
+
+.signUpPart{
+    float: right;
+    box-align: right;
+}
 }

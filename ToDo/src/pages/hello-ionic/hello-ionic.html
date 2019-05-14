@@ -5,20 +5,25 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title class="titulo">To Do</ion-title>
-    <button ion-button login class="login" *ngFor="let p of pages" (click)="openPage(login)">
+    <button ion-button login class="login">
         <ion-icon name="person"></ion-icon>
-    </button>
-    <button ion-button addTask class="add">
+      </button>
+        <button ion-button addTask class="add">
       <ion-icon name="add"></ion-icon>
     </button>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="inicio" padding>
-  <h1>Welcome!</h1>
-  <label>Seu organizador de tarefas.</label>
+  <fieldset>
+    <h2>Task Organizer</h2>
+    <label>Seu organizador de tarefas.</label>
+    <!-- TELA INICIAL -->
+    <img src="../../../www/assets/imgs/task.jpeg" alt="Error" width="60" height="40">
+  </fieldset>
 
-  <img src="palet.jpeg" alt="Error" width=60 height=40>
+
+ 
 <!--Por algum caralho de motivo, ele n ta fazendo a leitura da img
 rever esse erro dps.
 -->
