@@ -5,8 +5,9 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
 import { LoginPage } from '../pages/login/login';
-import { LogadoPage } from '../pages/logado/logado';
-import { SignUpPage } from '../pages/sign-up/sign-up';
+import { LogadoPage } from '../pages/login/logado';
+import { SignUpPage } from '../pages/login/sign-up';
+import { TasksPage } from '../pages/tasks/tasks';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -36,7 +37,8 @@ export class MyApp {
       { title: 'My First List', component: ListPage },
       { title: 'Login', component: LoginPage },
       { title: 'Logado', component: LogadoPage },
-      { title: 'Sign Up', component: SignUpPage }
+      { title: 'Sign Up', component: SignUpPage },
+      { title: 'Tasks', component: TasksPage }
     ];
   }
 

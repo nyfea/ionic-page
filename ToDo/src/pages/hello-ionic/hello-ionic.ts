@@ -23,4 +23,20 @@ export class HelloIonicPage {
     console.log('ionViewDidLoad HelloIonicPage');
   }
 
+  /*ionViewDidEnter() void {
+    const { description, index } = this.navCtrl.getByIndex(0).data;
+    if (description && index === undefined){
+      const newTask = {
+        description: description, 
+        done: false 
+      };
+        
+      this.tasks.push(newTask);
+    } else if (index !== undefined){
+      this.tasks[index].description = description;
+    }
+  }*/
+
 }
+
+
